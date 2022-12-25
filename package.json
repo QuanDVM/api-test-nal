@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "json-server --watch product.json"
+  },
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
