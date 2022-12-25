@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "json-server --watch product.json"
+    "start": "json-server --watch blog.json"
   },
   "dependencies": {
     "json-server": "^0.17.1"
