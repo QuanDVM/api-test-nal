@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "start": "json-server --watch blog.json --routes routes.json",
+    "start": "json-server --watch blog.json --cors",
     "build": "npm run build:prod",
-    "build:prod": "json-server --watch blog.json --port 8080 --production"
+    "build:prod": "json-server --watch blog.json --production --cors"
   },
   "dependencies": {
     "json-server": "^0.17.1"
