@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "json-server --watch blog.json --port 8080",
+    "start": "json-server --watch blog.json --routes routes.json",
     "build": "npm run build:prod",
     "build:prod": "json-server --watch blog.json --port 8080 --production"
   },
